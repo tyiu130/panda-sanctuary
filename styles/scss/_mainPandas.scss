@@ -1,0 +1,49 @@
+.aboutPandas {
+    background-color: $primaryColor;
+
+    button {
+        color: $secondaryTextColor;
+        background-color: $primaryTextColor;
+    }
+}
+
+
+.pandaText {
+   color: $primaryTextColor;
+   align-self: center;
+   width: 50%;
+   
+   
+   .textWrapper {
+    width: 80%;
+    
+   }
+
+}
+
+
+.babyPandas .textWrapper {
+    padding-left: 15%;
+    padding-right: 10%;
+}
+
+.largePanda .textWrapper {
+    padding-left: 10%;
+    padding-right: 12%;
+}
+
+.pandaFlex {
+    display: flex;
+
+    .imgContainer,
+    .pandaText {
+        width: 50%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+}
+
+

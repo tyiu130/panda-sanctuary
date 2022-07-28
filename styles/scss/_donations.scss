@@ -1,0 +1,33 @@
+.donations {
+        background-image: url(../../assets/image-5@2x.png);
+        background-size: cover;
+        padding: 80px 0 ;
+
+
+}
+
+
+.iconFlex ul {
+        display: flex;
+        justify-content: center;
+
+        li {
+                color: $secondaryTextColor;
+                font-size: 42px;
+
+                        i {
+                                color: $tertiaryTextColor;
+                                display: flex;
+                                justify-content: center;
+                        }
+        }
+
+}
+
+.iconFlex ul li:first-child {
+        padding-right: 18%;
+}
+
+.iconFlex ul li:last-child {
+        padding-left: 18%;
+}

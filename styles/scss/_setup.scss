@@ -1,0 +1,110 @@
+$primaryTextColor: #FFFFFF;
+$secondaryTextColor: #116500;
+$tertiaryTextColor: #2C2D2C;
+$primaryColor: #213C28;
+$secondaryColor: #D6F1E4;
+$baseFont: "Barlow", sans-seriff;
+$secondaryFont: "Offside", sans-seriff;
+
+
+body {
+    font-family: $baseFont;
+    font-weight: 400;
+    background-color: $primaryColor;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+h1,
+h3,
+li,
+label,
+.contact p,
+.copyright {
+    color: $primaryTextColor;
+    margin: 0;
+    font-weight: 400;
+    
+}
+
+h1 {
+    font-size: 68.8px;
+    line-height: 63.7px;
+    letter-spacing: 0.8px;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 42px;
+    font-family: $secondaryFont;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+
+h3 {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+
+p,
+label,
+.list {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+span {
+    display: block;
+}
+
+footer {
+    font-family: $secondaryFont;
+    font-weight: 400;
+}
+
+#gallery button {
+    border: none;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: $secondaryFont;
+    font-size: 20px;
+    line-height: 29px;
+    text-transform: uppercase;
+        
+}
+
+.wrapper,
+.headerTitle {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact p:last-child {
+    font-size: 16px;
+}
+
