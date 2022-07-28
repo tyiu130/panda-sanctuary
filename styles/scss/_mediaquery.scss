@@ -1,0 +1,32 @@
+@media (max-width: 540px) {
+    
+    header {
+        min-height: 100vh;
+        min-width: 540px;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    
+    nav {
+        position: relative;
+    }
+    
+    nav ul {
+        visibility: hidden;
+    }
+
+    .hamburger {
+        visibility: visible;
+        color: $primaryTextColor;
+        position: absolute;
+        right: 5%;
+        top: 50%;
+        font-size: 50px;
+        
+    }
+    .icons {
+        visibility: hidden;
+    }
+
+}
