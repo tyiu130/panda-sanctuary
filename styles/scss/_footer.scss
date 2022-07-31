@@ -62,8 +62,12 @@ input[type=text] {
 }
 
 
-.contact p:last-child {
-    padding-top: 20px;
-    line-height: normal;
-    font-size: 15px;
+.contact {
+    h4 {
+        font-size: 20px;
+    }
+
+    h5 {
+        padding-top: 18px;
+    }
 }

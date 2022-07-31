@@ -8,6 +8,8 @@ body {
 
 h1,
 h3,
+h4,
+h5,
 li,
 label,
 .contact p,
@@ -18,10 +20,11 @@ label,
 }
 
 h1 {
-  font-size: 68.8px;
-  line-height: 63.7px;
-  letter-spacing: 0.8px;
   margin-top: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  font-family: "Offside", sans-seriff;
 }
 
 h2 {
@@ -32,10 +35,14 @@ h2 {
 }
 
 h3 {
+  font-size: 68.8px;
+  line-height: 63.7px;
+  letter-spacing: 0.8px;
   margin-top: 30px;
-  font-size: 20px;
-  line-height: 30px;
-  letter-spacing: 0.2px;
+}
+
+h5 {
+  line-height: 20px;
 }
 
 p,
@@ -265,7 +272,7 @@ nav li {
 }
 .iconFlex ul li {
   color: #116500;
-  font-size: 42px;
+  font-size: 40px;
 }
 .iconFlex ul li i {
   color: #2C2D2C;
@@ -275,6 +282,11 @@ nav li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+.iconFlex ul li span {
+  font-size: 20px;
+  font-family: "Offside", sans-seriff;
+  margin-top: 10px;
 }
 
 .iconFlex ul li:first-child {
@@ -358,10 +370,11 @@ input[type=text] {
   margin: 0;
 }
 
-.contact p:last-child {
-  padding-top: 20px;
-  line-height: normal;
-  font-size: 15px;
+.contact h4 {
+  font-size: 20px;
+}
+.contact h5 {
+  padding-top: 18px;
 }
 
 @media (max-width: 540px) {
@@ -370,6 +383,9 @@ input[type=text] {
     min-width: 540px;
     background-size: cover;
     background-position: center;
+  }
+  header span {
+    display: inline;
   }
   nav {
     position: relative;
@@ -387,5 +403,22 @@ input[type=text] {
   }
   .icons {
     visibility: hidden;
+  }
+  .gallery ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .gallery ul li:first-child,
+.gallery ul li:nth-child(2) {
+    width: calc(50% - 10px);
+    margin: 0;
+  }
+  .gallery ul li:last-child {
+    width: 100%;
   }
 }
