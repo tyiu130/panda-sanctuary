@@ -131,5 +131,23 @@
         
     }
 
+// DONATIONS SECTION//
+    .donations {
+        padding: 50px 0;
+    }
+    .iconFlex ul{
+        flex-direction: column;
+        align-items: center;
+
+        li:nth-child(2) {
+            padding: 40px 0;
+        }
+
+        li:first-child,
+        li:last-child {
+            padding: 0
+        }
+    }
+
 
 }

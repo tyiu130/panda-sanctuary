@@ -497,4 +497,23 @@ input[type=text] {
   .pandaFlex .pandaText .textWrapper p {
     width: 90%;
   }
+  .donations {
+    padding: 50px 0;
+  }
+  .iconFlex ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .iconFlex ul li:nth-child(2) {
+    padding: 40px 0;
+  }
+  .iconFlex ul li:first-child,
+.iconFlex ul li:last-child {
+    padding: 0;
+  }
 }
