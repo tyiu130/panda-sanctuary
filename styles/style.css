@@ -420,5 +420,59 @@ input[type=text] {
   }
   .gallery ul li:last-child {
     width: 100%;
+    padding-bottom: 25px;
+  }
+  .imgContainer {
+    display: none;
+  }
+  .aboutPanda {
+    display: none;
+  }
+  .textContainer {
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .textContainer .aboutButton {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 40%;
+  }
+  .pandaFlex {
+    display: inline-block;
+  }
+  .pandaFlex .imgContainer {
+    width: 100%;
+    display: block;
+  }
+  .pandaFlex .pandaText {
+    width: 100%;
+  }
+  .pandaFlex .pandaText .textWrapper {
+    padding: 0;
+    margin: 0 0 0 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }

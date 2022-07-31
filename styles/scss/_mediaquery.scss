@@ -53,9 +53,60 @@
 
             li:last-child {
                 width: 100%;
+                padding-bottom: 25px;
             }
 
         }
-
     }
+
+        .imgContainer {
+            display: none;
+        }
+
+        .aboutPanda {
+            display: none;
+        }
+
+        .textContainer {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+
+            .aboutButton {
+                    justify-content: center;
+                    text-align: center;
+                    align-items: center;
+                    width: 40%;
+                }
+
+        }
+
+    
+    .pandaFlex {
+        display: inline-block;
+
+        .imgContainer {
+            width: 100%;
+            display: block;
+        }
+
+        .pandaText {
+            width: 100%;
+
+            .textWrapper {
+                    padding: 0;
+                    margin: 0 0 0 25px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+        }
+   
+        
+    }
+
+
+
+
 }
