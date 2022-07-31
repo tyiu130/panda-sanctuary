@@ -377,7 +377,7 @@ input[type=text] {
   padding-top: 18px;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 600px) {
   header {
     min-height: 100vh;
     min-width: 540px;
@@ -448,19 +448,38 @@ input[type=text] {
             align-items: center;
     width: 40%;
   }
-  .pandaFlex {
-    display: inline-block;
+  .pandaFlex:first-child {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding-bottom: 40px;
+  }
+  .pandaFlex:last-child {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 40px;
+  }
+  .pandaFlex h2 {
+    padding: 50px 0 20px 0;
   }
   .pandaFlex .imgContainer {
     width: 100%;
     display: block;
   }
+  .pandaFlex .imgContainer img {
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
   .pandaFlex .pandaText {
     width: 100%;
   }
   .pandaFlex .pandaText .textWrapper {
+    width: 100%;
     padding: 0;
-    margin: 0 0 0 25px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -474,5 +493,8 @@ input[type=text] {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .pandaFlex .pandaText .textWrapper p {
+    width: 90%;
   }
 }
