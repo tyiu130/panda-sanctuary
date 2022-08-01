@@ -1,4 +1,12 @@
-@media (max-width: 600px) {
+@media (max-width: 760px) {
+
+    
+    h4 {
+        font-size: 25px;
+    }
+    h5 {
+        font-size: 20px;
+    }
 
 // HEADER SECTION//
 
@@ -67,16 +75,16 @@
             display: none;
         }
 
+        
+
         .textContainer {
             margin: 0;
             display: flex;
             flex-direction: column;
 
             .aboutButton {
-                    justify-content: center;
-                    text-align: center;
-                    align-items: center;
-                    width: 40%;
+                    margin-left: 35%;
+                    width: 200px;
                 }
 
         }
@@ -149,5 +157,38 @@
         }
     }
 
+// FOOTER SECTION//
+
+    .footerFlex {
+        flex-wrap: wrap;
+        
+
+        .email {
+            text-align: center;
+            margin: 0;
+
+            h5 {
+                margin: 20px 0;
+            }
+           
+
+            button {
+                display: block;
+                margin: 15px 0 30px 36%;
+                
+                
+            }
+        }
+
+        input {
+            width: 100%;
+        }
+    
+        input[type=text] {
+            text-align: center;
+            padding: 0;
+        }
+
+    }
 
 }
