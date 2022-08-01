@@ -192,3 +192,23 @@
     }
 
 }
+
+@media (max-width: 1010px) {
+  
+  .pandaFlex img{
+    width: 100%;
+    display: block;
+  }
+  
+    .babyPandas .textWrapper {
+    padding-left: 5%;
+   }
+
+   .largePanda .textWrapper {
+       padding-left: 5%;
+   }
+
+   .pandaText .textWrapper {
+    width: 92%;
+   }
+}
